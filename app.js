@@ -2,7 +2,7 @@
 // Global Vars
 ///////////////////////////
 var creator_ip = '127.0.0.1'//local ip
-var creator_servo_base_port = 20013 + 32; // port to use servo driver.
+var creator_servo_base_port = 20013 + 32;//port to use servo driver.
 var matrix_io = require('matrix-protos').matrix_io;//MATRIX protocol buffers
 //Setup connection to use MATRIX Servos
 var zmq = require('zmq');
@@ -165,8 +165,5 @@ app.post('/slack_events', function(req, res) {
 //Create Server
 app.listen(userConfig.serverPort, function() {
     console.log('Gong listening on port '+userConfig.serverPort+'!');
-    gongMaster();//being listening for gong requests
+    gongMaster();//listening for gong requests
 });
-
-
-
