@@ -1,0 +1,9 @@
+{
+    "apiKeys":{
+        "slack":"YOUR-KEY-HERE",
+        "stripe":"YOUR-KEY-HERE"
+    },
+    "slackChannel": "#gong_master",
+    "serverPort": 6000
+
+}

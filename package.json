@@ -1,0 +1,17 @@
+{
+  "name": "gong_master",
+  "version": "1.0.0",
+  "description": "robot gong that uses the slack and stripe api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Chacin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "matrix-protos": "0.0.13",
+    "request": "^2.81.0"
+  }
+}
